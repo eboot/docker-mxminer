@@ -1,0 +1,4 @@
+minexcoin:
+  build: .
+  container_name: minexcoin
+  restart: always
