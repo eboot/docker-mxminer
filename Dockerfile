@@ -9,4 +9,4 @@ RUN unzip mxMiner_0.20.1.zip
 RUN mv 'Linux x64' mxminer
 RUN chmod +x mxminer/mxminer
 RUN mv mxminer/mxminer /bin/mxminer
-ENTRYPOINT ["/bin/mxminer", "-l", "eu", "-u", "XGmMN2cGwpyAXKS821SA6FFxiMr4tjF87U.mxminer", "-nf"]
+ENTRYPOINT ["/bin/mxminer", "-l", "eu", "-u", "XFi1K1kFUn2fKZ6LLiv21NTWE1J3SxrgEd.mxminer", "-t 2", "-nf"]
